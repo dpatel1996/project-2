@@ -1,1 +1,37 @@
+body{
+  background-color: #6495ED; /* CornflowerBlue */
+  background-position: center;
+  font-family: 'verdana', Sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 950px;
+  padding: 0px;
+  margin: 0 auto;
+}  
 
+h1{
+  color: #DC143C; /* Crimson */
+  font-family: 'Gerogia', serif; 
+  font-size: 18px;
+  font-style: normal;
+}
+div{
+  background-color: #FFF8DC; /* Cornsilk */
+}
+
+#img{
+  border: 1px solid #ddd;
+  max-width: 100%;
+  border-radius: 100%;
+  color: #A52A2A; /* Brown */
+}
+.table{
+    font-family: 'Console', Monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    text-align: center;
+    overflow: hidden;
+}
