@@ -57,7 +57,7 @@ ul.a{
   overflow: hidden; 
 }
 
-.a  ul li {
+.a ul li {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -92,12 +92,11 @@ tr td{
 }
 th{
   border: 2px red;
-  text-align: center;
   font-family:'Lucida', monospace;
   font-size: 16px;
   height: 40px;
   padding: 10px;
-  width: 100%;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
   
@@ -107,7 +106,7 @@ td{
   border: 1px solid red;
   font-family: 'Lucida', monospace;
   font-size: 14px;
-  text-align: center;
+  
   padding: 10px;
 }
 /*.p2 div p{
@@ -115,3 +114,31 @@ td{
   background-color: pink;
   font-family: 'console', Monospace;
 }*/
+
+.b ul li {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF00FF; /* Magenta */
+}
+
+.c ul li {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF00FF; /* Magenta */
+}
+
+.d ul li {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF00FF; /* Magenta */
+}
+
+.e ul li {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF00FF; /* Magenta */
+}
