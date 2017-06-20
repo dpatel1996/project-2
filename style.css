@@ -140,6 +140,7 @@ td{
 #third ul,li{
   font-size: 1em;
   color: darkblue; 
+  list-style-type: none;
 }
 #third tr td ul li{
     width: auto;
