@@ -17,7 +17,11 @@ h1{
   font-style: normal;
 }
 
-
+div {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
 img{
   border: 1px solid #ddd;
   max-width: 100%;
@@ -73,3 +77,26 @@ ul.a{
     text-align: center;
     overflow: hidden;
 }
+
+th{
+  border: 2px red;
+  text-align: center;
+  font-family:'Lucida', monospace;
+  font-size: 16px;
+  height: 40px;
+  padding: 10px;
+  width: 100%
+}
+
+td{
+  border: 1px solid red;
+  font-family: 'Lucida', monospace;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+/*.p2 div p{
+  font-size: 14px;
+  background-color: pink;
+  font-family: 'console', Monospace;
+}*/
