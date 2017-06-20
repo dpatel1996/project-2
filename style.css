@@ -58,7 +58,7 @@ ul.a{
 }
 
 .a li{
-  list-style-position: circle; 
+  list-style-type: circle; 
   background-color: #FF00FF; /* Magenta */ 
   height: 50px;
   width: 300px;
