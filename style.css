@@ -3,7 +3,7 @@ body{
   background-position: center;
   font-family: 'verdana', Sans-serif;
   font-size: 20px;
-  text-align: center;
+  /*text-align: center;*/
   width: 950px;
   padding: 0px;
   margin: 0 auto;
@@ -15,15 +15,37 @@ h1{
   font-size: 18px;
   font-style: normal;
 }
-div{
-  background-color: #FFF8DC; /* Cornsilk */
-}
 
-#img{
+
+img{
   border: 1px solid #ddd;
   max-width: 100%;
-  border-radius: 100%;
+  border-radius: 100px;
   color: #A52A2A; /* Brown */
+}
+
+nav{
+  background-color: 	#7B68EE; /* MediumSlateGreen */
+  position: static;
+  top: 0;
+  background-color: left;
+}
+nav ul li a {
+  display: block;
+  padding: 0.375em;
+  font-size: 15px;
+  color: blue;
+  text-transform: uppercase;
+  font-family: 'courier new', Monospace;
+  text-align: center; 
+}
+
+nav ul li a:hover{
+  background-color: #FF8C00; /* Dark Orange */
+  color: #9932CC; /* Dark Orchid */
+}
+ul.a{
+  list-style-type: circle;
 }
 .table{
     font-family: 'Console', Monospace;
