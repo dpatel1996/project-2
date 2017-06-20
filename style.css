@@ -49,7 +49,7 @@ nav ul li a:hover{
   color: #9932CC; /* Dark Orchid */
 }
 ul.a{
-  list-style-type: circle;
+  /*list-style-type: circle; */
   text-align: center; 
   margin-bottom: 4rem;
   margin: 0;
@@ -58,12 +58,9 @@ ul.a{
 }
 
 .a li{
-  list-style-type: circle; 
-  background-color: #FF00FF; /* Magenta */ 
-  height: 50px;
-  width: 300px;
-  text-align: center;
-  position: relative; 
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
