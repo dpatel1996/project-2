@@ -8,13 +8,14 @@ body{
   width: auto;
   padding: 0px;
   margin: 0 auto;
-  
+  background-image: url("images/background.png");
+  background-size: cover; 
 }  
 
 h1{
   color: #DC143C; /* Crimson */
   font-family: 'Gerogia', serif; 
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
 }
 
@@ -38,7 +39,7 @@ nav{
 nav ul a {
   display: block;
   padding: 0.375em;
-  font-size: 15px;
+  font-size: 20px;
   color: blue;
   text-transform: uppercase;
   font-family: 'courier new', Monospace;
@@ -47,7 +48,6 @@ nav ul a {
 
 nav ul li a:hover{
   background-color: #FF8C00; /* Dark Orange */
-  color: #9932CC; /* Dark Orchid */
 }
 ul.a{
   /*list-style-type: circle; */
@@ -80,7 +80,11 @@ div.container {
   width: 100%;
   margin: 1%
 }
- 
+
+#nav {
+  font-size: 18px;
+  font-family: 'TimesNewsRoman', serif; 
+}
 table#table1{
   text-align:center;
   margin-left: auto;
@@ -112,7 +116,7 @@ td{
 }
 .sec p{
   font-size: 1em;
-  color: #FFD700; /*Gold*/
+  color: 	#228B22; /*Forest Green*/
 }
 
 #page {
@@ -137,4 +141,37 @@ td{
 #third ul,li{
   font-size: 1em;
   color: darkblue; 
+  list-style-type: none;
+}
+#third tr td ul li{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#third h3{
+  font-family: 'Arial', sans-serif;
+  color: red;  
+}
+
+#third {
+  text-align: center;
+}
+
+#one {
+  text-align: center;
+}
+
+one td {
+  display: inline-block;
+  
+}
+
+#two{
+  text-align: center;
+}
+
+two td {
+  display: inline-block;
 }
