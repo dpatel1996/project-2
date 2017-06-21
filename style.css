@@ -8,7 +8,8 @@ body{
   width: auto;
   padding: 0px;
   margin: 0 auto;
-  
+  background-image: url("images/background.png");
+  background-size: cover; 
 }  
 
 h1{
@@ -115,7 +116,7 @@ td{
 }
 .sec p{
   font-size: 1em;
-  color: #FFD700; /*Gold*/
+  color: 	#228B22; /*Forest Green*/
 }
 
 #page {
@@ -152,4 +153,25 @@ td{
 #third h3{
   font-family: 'Arial', sans-serif;
   color: red;  
+}
+
+#third {
+  text-align: center;
+}
+
+#one {
+  text-align: center;
+}
+
+one td {
+  display: inline-block;
+  
+}
+
+#two{
+  text-align: center;
+}
+
+two td {
+  display: inline-block;
 }
