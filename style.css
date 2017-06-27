@@ -12,6 +12,12 @@ body{
   background-size: cover; 
 }  
 
+span{
+  width:0.7em;
+  font-size:150%;
+  font-family: 'verdana', sans-serif;
+  line-height: 80%;
+}
 h1{
   color: #DC143C; /* Crimson */
   font-family: 'Gerogia', serif; 
