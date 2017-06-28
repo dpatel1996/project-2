@@ -10,13 +10,25 @@ body{
   margin: 0 auto;
   background-image: url("images/background.jpg");
   background-size: cover; 
+  text-decoration: none;
 }  
+#para1 {
+  position: relative;
+  left: 10px;
+}
 
+#para2 {
+  position: fixed;
+  left: 20px;
+  
+}
 span{
+  float: none;
   width:0.7em;
   font-size:150%;
   font-family: 'verdana', sans-serif;
   line-height: 80%;
+  color: red;
 }
 h1{
   color: #DC143C; /* Crimson */
@@ -25,13 +37,10 @@ h1{
   font-style: normal;
 }
 
-iframe{
-  width: 100%;
-  height: 720px;
-}
 
 div {
-  list-style-type: none;
+  /*list-style-type: none; */
+  text-decoration: none;
   margin: 0;
   padding: 0; 
 }
@@ -47,7 +56,14 @@ nav{
   position: static;
   top: 0;
 }
-nav a {
+
+nav a{
+  text-decoration: none;
+  color: 	#FFFFFF; /*Chartreuse*/
+  padding: 0px ;
+  font-family: 'courier new', Monospace;
+}
+/*nav a {
   display: block;
   padding: 12px 14px;
   font-size: 20px;
@@ -55,7 +71,7 @@ nav a {
   text-transform: uppercase;
   font-family: 'courier new', Monospace;
   text-align: center; 
-}
+}*/
 
 nav div#second li{
   float: left;
@@ -85,6 +101,7 @@ ul.a{
   margin: 0;
   padding: 0;
   overflow: hidden; 
+  text-decoration: none;
 }
 
 .a ul li {
